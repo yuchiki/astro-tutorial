@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro'
+const skills = ["astro", "git", "honyaraka"]
+---
+
+
+<BaseLayout pageTitle="about">
+
+    <h1>私について</h1>
+    <h2>私の新しいAstroサイトについて</h2>
+    <p> 私はあすとろのチュートリアルを進めています。</p>
+
+    <ul>
+        {skills.map((skill) => (
+            <li class="skill">{skill}</li>
+        ))}
+    </ul>
+
+
+</BaseLayout>

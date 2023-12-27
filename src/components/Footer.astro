@@ -1,0 +1,18 @@
+---
+const platform = "github";
+const username = "yuchiki";
+import Social from "./Social.astro";
+---
+
+<footer>
+    <p>私のプロジェクトについて、詳しくは<a href={`https://www.${platform}.com/${username}`}>{platform}</a>を参照のこと</p>
+    <Social />
+</footer>
+
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
