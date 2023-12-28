@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #afaf9e;
   font-family: sans-serif;
 }
 
@@ -84,7 +84,7 @@ h1 {
 }
 
 html.dark {
-  background-color: #0d0950;
+  background-color: #020116;
   color: #fff;
 }
 

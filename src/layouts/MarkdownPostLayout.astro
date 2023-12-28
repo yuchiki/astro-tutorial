@@ -1,6 +1,11 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-const {frontmatter} = Astro.props;
+import  type {Frontmatter} from "@typeDefinitions/posts";
+
+type Props = {
+    frontmatter: Frontmatter;
+};
+const {frontmatter} : { frontmatter: Frontmatter} = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
     <p>投稿日: {frontmatter.pubDate.slice(0, 10)}</p>

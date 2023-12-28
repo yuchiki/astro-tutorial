@@ -14,7 +14,10 @@
       ],
       "@layouts/*": [
         "src/layouts/*"
-      ]
+      ],
+      "@typeDefinitions/*": [
+        "src/types/*"
+      ],
     },
     "jsx": "react-jsx",
     "jsxImportSource": "preact"

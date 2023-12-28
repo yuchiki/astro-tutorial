@@ -2,7 +2,9 @@
 
 import BaseLayout from '@layouts/BaseLayout.astro';
 import BlogPost from '@components/BlogPost.astro';
-const allPosts = await Astro.glob('./posts/*.md')
+import type { Frontmatter } from '@typeDefinitions/posts'
+
+const allPosts = await Astro.glob<Frontmatter>('./posts/*.md')
 ---
 
 <BaseLayout pageTitle="blog">
