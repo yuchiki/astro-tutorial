@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
+    "@astrojs/preact": "^3.0.1",
+    "@astrojs/rss": "^4.0.1",
     "astro": "^4.0.7",
-    "aws-amplify": "^6.0.9"
+    "aws-amplify": "^6.0.9",
+    "preact": "^10.19.3"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.7.0",
