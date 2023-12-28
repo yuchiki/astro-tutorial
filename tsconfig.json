@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strictest",
   "compilerOptions": {
-    "baseUrl": "/home/yuchiki/projects/astro-tutorial",
+    "baseUrl": ".",
     "paths": {
       "@components/*": [
         "src/components/*"
